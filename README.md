@@ -9,7 +9,7 @@
 ---
 
 ## ✈️ Project Overview
-This project investigates the economic relationship between airline pricing and carbon efficiency in the US domestic market. By integrating passenger itinerary data (DB1B) with operational aircraft data (T100), we aim to quantify if a "Green Premium" exists—do passengers pay more for flights with lower carbon emissions?
+This project investigates the economic relationship between airline pricing and carbon efficiency in the US domestic market. By integrating passenger itinerary data (DB1B) with operational aircraft data (T100), we aim to quantify if a "Green Premium" exists. In other words, do passengers pay more for flights with lower carbon emissions?
 
 ## Key Findings
 * **Carbon Intensity Variance:** Modeled CO2 emissions per seat-km vary significantly across aircraft types.
@@ -24,7 +24,7 @@ This project investigates the economic relationship between airline pricing and 
 * **Feature Engineering:** Created `co2_per_seat_km` and `load_factor` metrics; applied One-Hot Encoding to top aircraft types and major carrier flags.
 
 ### 2. Machine Learning
-* **Models:** Log-Log Regression with Fixed Effects, Gradient-Boosted Decision Tree, General Additive Models
+* **Models:** Log-Log Regression with Fixed Effects, Gradient-Boosted Decision Tree, General Additive Model
 * **Target:** Average Market Fare ($).
 * **Features:** Distance (km), CO2/km, Carrier Market Share, Aircraft Type, Passenger Demand.
 * **Validation:** 80/20 Train-Test split with RMSE evaluation.
