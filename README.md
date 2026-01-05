@@ -2,6 +2,8 @@
 ## A Machine Learning Approach to Modeling Carbon-Adjusted Airfare
 ### Authors: Lennard Pische, Aram Bagdasarian, Marco Gandola, Vivek Shah
 
+![Project Status: Completed](https://img.shields.io/badge/Status-Completed-success) ![Python](https://img.shields.io/badge/Made%20with-Python-blue)
+
 > **Note on Data & Reproducibility:** > The raw source data for this project (DB1B Market & T100 Segment) exceeds 1GB and is not hosted in this repository due to storage limits.  
 > 
 > **Please view the notebook [`notebooks/OptimalCarbonPricing.ipynb`](notebooks/OptimalCarbonPricing.ipynb) to see the full analysis, pre-rendered visualizations, and model results.**
